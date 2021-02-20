@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210645393856",
+    "project_id": "headphone-shop",
+    "storage_bucket": "headphone-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210645393856:android:8a77697e6cd7cb1523a825",
+        "android_client_info": {
+          "package_name": "com.example.headphone_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210645393856-u9lkl7s4hkjurr1ik0k9j3909h8uon2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY3vA96Dj5rv0Oi7x-Hv65k8DmEsQgsug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210645393856-u9lkl7s4hkjurr1ik0k9j3909h8uon2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
