@@ -1,16 +1,8 @@
 # headphone_shop
 
-A new Flutter application.
+A new Flutter Shop with Firebase.
 
-## Getting Started
+# The App
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/62328990/108582502-65666580-7366-11eb-8f52-e06d38905333.png"width="300" />
+<img src="https://user-images.githubusercontent.com/62328990/108582505-68615600-7366-11eb-9fc4-4d0b4a0e1cb8.png"width="300" />
