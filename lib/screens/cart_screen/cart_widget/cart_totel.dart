@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:headphone_shop/providers/cart.dart';
+import 'package:headphone_shop/providers/order.dart';
+import 'package:headphone_shop/screens/order_screen/orders_screen.dart';
 import 'package:provider/provider.dart';
 
 class CartItemWidget extends StatelessWidget {
@@ -29,7 +31,12 @@ class CartItemWidget extends StatelessWidget {
                 child: FlatButton.icon(
                   splashColor: Colors.amber,
                   textColor: Theme.of(context).primaryColor,
-                  onPressed: () {},
+                  onPressed: () async {
+                    await Provider.of<Order>(context, listen: false).addOrder(
+                        cart.items.values.toList(), cart.totalAmount);
+                    cart.clear();
+                    Navigator.of(context).pushNamed(OrderScreen.routeName);
+                  },
                   icon: Icon(Icons.shopping_bag_outlined),
                   label: Text('Order Now'),
                 ),

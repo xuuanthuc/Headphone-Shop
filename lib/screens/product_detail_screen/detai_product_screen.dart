@@ -66,23 +66,7 @@ class DetailProduct extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        'Description',
-                        style: TextStyle(
-                            color: Theme.of(context).primaryColorDark,
-                            fontSize: 22,
-                            fontWeight: FontWeight.w500),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Text(
-                        productData.description,
-                        style: TextStyle(fontSize: 19, color: Colors.black54),
-                      ),
-                      SizedBox(
-                        height: 10,
-                      ),
+
                       Text(
                         'Brand',
                         style: TextStyle(
@@ -97,6 +81,24 @@ class DetailProduct extends StatelessWidget {
                         productData.from,
                         style: TextStyle(fontSize: 19, color: Colors.black54),
                       ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        'Description',
+                        style: TextStyle(
+                            color: Theme.of(context).primaryColorDark,
+                            fontSize: 22,
+                            fontWeight: FontWeight.w500),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        productData.description,
+                        style: TextStyle(fontSize: 19, color: Colors.black54),
+                      ),
+
                     ],
                   ),
                 ),

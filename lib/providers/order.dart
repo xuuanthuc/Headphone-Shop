@@ -57,7 +57,7 @@ class Order with ChangeNotifier{
 
   Future<void> fetchAndSetOrder() async {
     final url =
-        'https://headphone-shop-default-rtdb.firebaseio.com/ordersjson?';
+        'https://headphone-shop-default-rtdb.firebaseio.com/orders.json?';
     try {
       final response =
       await http.get(url); //post de gui yeu cau gui, get de yeu cau nhan

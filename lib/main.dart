@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:headphone_shop/providers/cart.dart';
+import 'package:headphone_shop/providers/order.dart';
 import 'package:headphone_shop/providers/products.dart';
 import 'package:headphone_shop/screens/edit_products_screen/edit_products_screen.dart';
 import 'package:headphone_shop/screens/home_screen/home_screen.dart';
+import 'package:headphone_shop/screens/order_screen/orders_screen.dart';
 import 'package:headphone_shop/screens/product_detail_screen/detai_product_screen.dart';
 import 'package:headphone_shop/screens/product_manager_screen/product_manager_screen.dart';
 import 'package:provider/provider.dart';
@@ -20,6 +22,7 @@ class MyApp extends StatelessWidget {
       providers: [
         Provider(create: (ctx) => Products()),
         Provider(create: (ctx) => Cart()),
+        Provider(create: (ctx) => Order()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -34,6 +37,7 @@ class MyApp extends StatelessWidget {
           DetailProduct.routeName: (ctx) => DetailProduct(),
           ProductManagerScreen.routeName: (ctx) => ProductManagerScreen(),
           EditProduct.routeName: (ctx) => EditProduct(),
+          OrderScreen.routeName: (ctx) => OrderScreen(),
         },
       ),
     );
